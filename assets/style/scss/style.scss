@@ -1,0 +1,50 @@
+@import "colors";
+@import "fonts";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+.container {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+
+	background-color: $light-gray;
+
+	.card {
+		width: 300px;
+		display: flex;
+		flex-direction: column;
+		padding: 1rem;
+		margin: auto;
+		border-radius: 1rem;
+
+		background-color: $white;
+
+		.qr-container {
+			display: flex;
+			border-radius: 0.5rem;
+			overflow: hidden;
+
+			.qr-img {
+				width: 100%;
+			}
+		}
+		.description {
+			gap: 1rem;
+      display: flex;
+      flex-direction: column;
+			padding: 1.25rem 0.75rem;
+		}
+	}
+}

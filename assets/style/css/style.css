@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Roboto&display=swap");
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+.title,
+.text {
+  text-align: center;
+}
+.title.title,
+.text.title {
+  font-weight: 700;
+  font-size: 21px;
+  color: #1f3251;
+}
+.title.text,
+.text.text {
+  font-weight: 400;
+  font-size: 15px;
+  color: #7b879d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #d6e2f0;
+}
+.container .card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: auto;
+  border-radius: 1rem;
+  background-color: #ffffff;
+}
+.container .card .qr-container {
+  display: flex;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.container .card .qr-container .qr-img {
+  width: 100%;
+}
+.container .card .description {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem 0.75rem;
+}
+
+/*# sourceMappingURL=style.css.map */
